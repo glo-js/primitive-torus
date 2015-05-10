@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "budo demo.js:bundle.js --live --verbose | opnr | garnish",
-    "build": "browserify index.js | uglifyjs -cm > bundle.js"
+    "build": "browserify demo.js | uglifyjs -cm > bundle.js"
   },
   "author": {
     "name": "Matt DesLauriers",
@@ -30,9 +30,21 @@
     "url": "git://github.com/mattdesl/torus-mesh.git"
   },
   "keywords": [
-    "torus", "mesh", "simplicial", "complex", "meshes", "geo",
-    "geometry", "meshes", "3d", "circle", "ring", "tori", "tube",
-    "arc", "geom"
+    "torus",
+    "mesh",
+    "simplicial",
+    "complex",
+    "meshes",
+    "geo",
+    "geometry",
+    "meshes",
+    "3d",
+    "circle",
+    "ring",
+    "tori",
+    "tube",
+    "arc",
+    "geom"
   ],
   "homepage": "https://github.com/mattdesl/torus-mesh",
   "bugs": {
