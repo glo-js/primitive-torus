@@ -1,0 +1,39 @@
+{
+  "name": "torus-mesh",
+  "version": "1.0.0",
+  "description": "creates a 3D torus mesh",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo demo.js:bundle.js --live --verbose | opnr | garnish",
+    "build": "browserify index.js | uglifyjs -cm > bundle.js"
+  },
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "http://github.com/mattdesl"
+  },
+  "dependencies": {
+    "defined": "^1.0.0",
+    "gl-vec3": "^1.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^10.1.3",
+    "budo": "^4.0.0",
+    "garnish": "^2.1.3",
+    "mesh-viewer": "^1.0.0",
+    "opnr": "^1.0.4",
+    "uglify-js": "^2.4.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/torus-mesh.git"
+  },
+  "keywords": [
+    "ecosystem:stackgl"
+  ],
+  "homepage": "https://github.com/stackgl/torus-mesh",
+  "bugs": {
+    "url": "https://github.com/stackgl/torus-mesh/issues"
+  }
+}
