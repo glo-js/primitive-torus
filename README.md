@@ -20,6 +20,12 @@ It returns a simplicial complex, but also includes `normals` and `uvs` for light
 
 #### `mesh = torus([opt])`
 
+![demo-image](http://i.imgur.com/Aqbg23b.png)
+
+[(click for demo)](https://mattdesl.github.io/torus-mesh/index.html)
+
+<!-- iframe: https://mattdesl.github.io/torus-mesh/index.html -->
+
 Creates a new torus with options:
 
 - `majorRadius` the radius of the major ring `R`, default 1.0
