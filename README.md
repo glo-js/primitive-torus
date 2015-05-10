@@ -2,6 +2,12 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+![demo-image](http://i.imgur.com/Aqbg23b.png)
+
+[(click for demo)](https://mattdesl.github.io/torus-mesh/index.html)
+
+<!-- iframe: https://mattdesl.github.io/torus-mesh/index.html -->
+
 Generates an indexed 3D torus mesh.
 
 ```js
@@ -19,12 +25,6 @@ It returns a simplicial complex, but also includes `normals` and `uvs` for light
 [![NPM](https://nodei.co/npm/torus-mesh.png)](https://nodei.co/npm/torus-mesh/)
 
 #### `mesh = torus([opt])`
-
-![demo-image](http://i.imgur.com/Aqbg23b.png)
-
-[(click for demo)](https://mattdesl.github.io/torus-mesh/index.html)
-
-<!-- iframe: https://mattdesl.github.io/torus-mesh/index.html -->
 
 Creates a new torus with options:
 
