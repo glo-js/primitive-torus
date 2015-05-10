@@ -30,7 +30,7 @@ Creates a new torus with options:
 
 ## Credits
 
-The code is largely taken from [ThreeJS TorusGeometry](https://github.com/mrdoob/three.js/blob/d49bb0e85f9c013198dc5a6c0f94f0bbe6a02add/src/extras/geometries/TorusGeometry.js).
+The algorithm here is from [ThreeJS TorusGeometry](https://github.com/mrdoob/three.js/blob/d49bb0e85f9c013198dc5a6c0f94f0bbe6a02add/src/extras/geometries/TorusGeometry.js).
 
 ## License
 
