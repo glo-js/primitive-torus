@@ -27,13 +27,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stackgl/torus-mesh.git"
+    "url": "git://github.com/mattdesl/torus-mesh.git"
   },
   "keywords": [
-    "ecosystem:stackgl"
+    "torus", "mesh", "simplicial", "complex", "meshes", "geo",
+    "geometry", "meshes", "3d", "circle", "ring", "tori", "tube",
+    "arc", "geom"
   ],
-  "homepage": "https://github.com/stackgl/torus-mesh",
+  "homepage": "https://github.com/mattdesl/torus-mesh",
   "bugs": {
-    "url": "https://github.com/stackgl/torus-mesh/issues"
+    "url": "https://github.com/mattdesl/torus-mesh/issues"
   }
 }
