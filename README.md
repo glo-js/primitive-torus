@@ -28,6 +28,10 @@ Creates a new torus with options:
 - `minorSegments` the number of segments for the minor ring, defualt 64
 - `arc` the arc to draw, default `Math.PI * 2` (full circle)
 
+## Credits
+
+The code is largely taken from [ThreeJS TorusGeometry](https://github.com/mrdoob/three.js/blob/d49bb0e85f9c013198dc5a6c0f94f0bbe6a02add/src/extras/geometries/TorusGeometry.js).
+
 ## License
 
-MIT. See [LICENSE.md](http://github.com/stackgl/torus-mesh/blob/master/LICENSE.md) for details.
+MIT. See [LICENSE.md](http://github.com/mattdesl/torus-mesh/blob/master/LICENSE.md) for details.
