@@ -2,7 +2,7 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-![screen](http://i.imgur.com/BTaMQrC.png)
+[![screen](http://i.imgur.com/6BKbSZb.png)](http://glo-js.github.io/primitive-torus/)
 
 [(demo)](http://glo-js.github.io/primitive-torus/)
 
