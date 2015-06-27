@@ -1,6 +1,6 @@
 {
   "name": "primitive-torus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "creates a 3D torus mesh",
   "main": "index.js",
   "license": "MIT",
