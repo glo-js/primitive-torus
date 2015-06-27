@@ -1,28 +1,32 @@
-# torus-mesh
+# primitive-torus
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-![demo-image](http://i.imgur.com/Aqbg23b.png)
+![screen](http://i.imgur.com/BTaMQrC.png)
 
-[(click for demo)](https://mattdesl.github.io/torus-mesh/index.html)
+[(demo)](http://glo-js.github.io/primitive-torus/)
 
-<!-- iframe: https://mattdesl.github.io/torus-mesh/index.html -->
+<!-- iframe: https://glo-js.github.io/primitive-torus/index.html -->
 
-Generates an indexed 3D torus mesh.
+A minimal 3D torus geometry for 3D rendering, including normals, UVs, and cell indices.
+
+## Example
 
 ```js
-var torus = require('torus-mesh')
+var torus = require('primitive-torus')
 var mesh = torus()
 
-console.log(mesh)
-=> { positions, cells, normals, uvs }
-```
+// the simplicial complex
+console.log(mesh.positions, mesh.cells)
 
-It returns a simplicial complex, but also includes `normals` and `uvs` for lighting and texturing.
+// rendering attributes
+console.log(mesh.uvs)
+console.log(mesh.normals)
+```
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/torus-mesh.png)](https://nodei.co/npm/torus-mesh/)
+[![NPM](https://nodei.co/npm/primitive-torus.png)](https://nodei.co/npm/primitive-torus/)
 
 #### `mesh = torus([opt])`
 
@@ -34,10 +38,21 @@ Creates a new torus with options:
 - `minorSegments` the number of segments for the minor ring, defualt 64
 - `arc` the arc to draw, default `Math.PI * 2` (full circle)
 
+The returned mesh is an object with the following data:
+
+```
+{
+  positions: [ [x, y, z], [x, y, z], ... ],
+  cells: [ [a, b, c], [a, b, c], ... ],
+  uvs: [ [u, v], [u, v], ... ],
+  normals: [ [x, y, z], [x, y, z], ... ]
+}
+```
+
 ## Credits
 
 The algorithm here is from [ThreeJS TorusGeometry](https://github.com/mrdoob/three.js/blob/d49bb0e85f9c013198dc5a6c0f94f0bbe6a02add/src/extras/geometries/TorusGeometry.js).
 
 ## License
 
-MIT. See [LICENSE.md](http://github.com/mattdesl/torus-mesh/blob/master/LICENSE.md) for details.
+MIT. See [LICENSE.md](http://github.com/mattdesl/primitive-torus/blob/master/LICENSE.md) for details.
