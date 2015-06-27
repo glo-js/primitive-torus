@@ -1,7 +1,6 @@
 var defined = require('defined')
 var sub = require('gl-vec3/subtract')
 var normalize = require('gl-vec3/normalize')
-var copy = require('gl-vec3/copy')
 
 module.exports = createTorusMesh
 function createTorusMesh (opt) {
