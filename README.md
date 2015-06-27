@@ -2,9 +2,11 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-![demo-image](http://i.imgur.com/Aqbg23b.png)
+### RENAMED TO `primitive-torus`
 
-[(click for demo)](https://mattdesl.github.io/torus-mesh/index.html)
+This module is deprecated and has been renamed to [primitive-torus](https://www.npmjs.com/package/primitive-torus) for consistency with related modules.
+
+---
 
 <!-- iframe: https://mattdesl.github.io/torus-mesh/index.html -->
 
