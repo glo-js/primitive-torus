@@ -26,7 +26,7 @@ console.log(mesh.normals)
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/primitive-torus.png)](https://nodei.co/npm/primitive-torus/)
+[![NPM](https://nodei.co/npm/primitive-torus.png)](https://www.npmjs.com/package/primitive-torus)
 
 #### `mesh = torus([opt])`
 
