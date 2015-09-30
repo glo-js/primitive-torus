@@ -1,6 +1,6 @@
 {
   "name": "primitive-torus",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "creates a 3D torus mesh",
   "main": "index.js",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "browserify": "^10.1.3",
     "budo": "^4.0.0",
     "garnish": "^2.1.3",
-    "glo-demo-primitive": "^1.0.4",
+    "glo-demo-primitive": "^2.0.1",
     "mesh-viewer": "^1.0.0",
     "opnr": "^1.0.4",
     "uglify-js": "^2.4.21"
